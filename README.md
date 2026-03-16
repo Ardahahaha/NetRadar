@@ -1,5 +1,39 @@
-![Statut Downloads](./NetRadar.png) 🚀 Features
-ModuleDescription🖥️ Network InterfacesDisplay IP, MAC, subnet mask, broadcast and vendor for each interface🔍 Host DiscoveryPing sweep + ARP on the local network, OS fingerprinting via TTL🔓 Port ScannerCommon ports or custom ranges with banner grabbing📶 WiFi ScannerSSID, BSSID, signal (dBm + %), security, channel, AP vendor📡 Bluetooth ScannerBLE via bleak, classic Bluetooth via pybluez, PowerShell fallback🕵️ Live CaptureReal-time display of TCP / UDP / ICMP / ARP packets via Scapy📊 Full ScanAutomatically chains all 5 modules above with a final summary
+![Statut Downloads](./NetRadar.png) 
+🚀 Features
+#ModuleDescription1
+📊 Full Advanced ScanAll modules at once: hosts, ports, HTTP, SSL, SNMP, WiFi, BT, vulns2
+
+🔍 Host DiscoveryActive devices, OS fingerprinting via TTL, MAC + vendor3
+
+🔓 TCP Port ScannerOpen ports, service name, banner grabbing4
+
+📡 UDP Port ScannerDNS, SNMP, NTP, SSDP, mDNS, DHCP and more5
+
+🌐 HTTP/HTTPS ScannerStatus code, server, page title, technologies, security headers6
+
+🔒 SSL/TLS ScannerCertificates, expiry, cipher suite, SANs7
+
+🗂️ DNS ScannerA/AAAA/MX/NS/TXT/CNAME/SOA records + AXFR zone transfer attempt8
+
+🖥️ NetBIOS/SMB ScannerWindows names, workgroups9
+
+📶 SNMP ScannerCommunity strings, sysDescr, sysName10
+
+📡 WiFi ScannerSSID, BSSID, signal (dBm + %), channel, security, AP vendor11🦷 Bluetooth ScannerBLE + classic, RSSI, device type12🗺️ TracerouteHop-by-hop path to a target13
+
+🌍 IP GeolocationCountry, city, ISP, coordinates14
+
+📋 WHOIS LookupRegistrar, org, creation/expiry dates for IP or domain15
+
+📢 mDNS/ZeroconfPrinters, Chromecast, AirPlay, SSH and other local services16
+
+📈 Network StatisticsBytes in/out, active connections, TCP states17
+
+🔑 Default Credentials CheckTest FTP/HTTP/MySQL with common default passwords18
+
+⚠️ Vulnerability AnalysisDetect known CVEs from service banners (30+ signatures)19🖧 Network InterfacesIP, MAC, subnet mask, IPv6, vendor per interface20
+
+🕵️ Live CaptureReal-time packet display: TCP / UDP / ICMP / ARP (Npcap/root required)
 
 📦 Requirements
 
