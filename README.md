@@ -1,33 +1,3 @@
- ███╗   ██╗███████╗████████╗    ██████╗  █████╗ ██████╗  █████╗ ██████╗
- ████╗  ██║██╔════╝╚══██╔══╝    ██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗
- ██╔██╗ ██║█████╗     ██║       ██████╔╝███████║██║  ██║███████║██████╔╝
- ██║╚██╗██║██╔══╝     ██║       ██╔══██╗██╔══██║██║  ██║██╔══██║██╔══██╗
- ██║ ╚████║███████╗   ██║       ██║  ██║██║  ██║██████╔╝██║  ██║██║  ██║
- ╚═╝  ╚═══╝╚══════╝   ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
-  NetRadar v1.0.0  │  Windows 10  │  Admin: Non  │  2026-03-16 11:45:18
-  Modules: scapy nmap pywifi bleak pybluez netifaces
-
-╭──────────────────────────────────────────────────   NETRADAR MENU   ───────────────────────────────────────────────────╮
-│                                                                                                                        │
-│  ╭──────────┬─────────────────────────────┬─────────────────────────────╮                                              │
-│  │  [ 1 ]   │  Scan Complet               │  Interfaces + hôtes +       │                                              │
-│  │          │                             │  ports + WiFi + Bluetooth   │                                              │
-│  │  [ 2 ]   │  Découvrir les Hôtes        │  Trouver tous les           │                                              │
-│  │          │                             │  appareils sur le réseau    │                                              │
-│  │  [ 3 ]   │  Scanner les Ports          │  Ports ouverts sur une IP   │                                              │
-│  │          │                             │  cible                      │                                              │
-│  │  [ 4 ]   │  Réseaux WiFi               │  Voir tous les réseaux      │                                              │
-│  │          │                             │  WiFi à proximité           │                                              │
-│  │  [ 5 ]   │  Appareils Bluetooth        │  Scanner les appareils      │                                              │
-│  │          │                             │  BT/BLE proches             │                                              │
-│  │  [ 6 ]   │  Interfaces Réseau          │  IP, MAC, masque de         │                                              │
-│  │          │                             │  sous-réseau, vendeur       │                                              │
-│  │  [ 7 ]   │  Capture en Direct          │  Afficher les paquets       │                                              │
-│  │          │                             │  réseau en temps réel       │                                              │
-│  │  [ 0 ]   │  Quitter                    │                             │                                              │
-│  ╰──────────┴─────────────────────────────┴─────────────────────────────╯                                              │
-│                                                                                                                        │
-╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
  🚀 Features
 ModuleDescription🖥️ Network InterfacesDisplay IP, MAC, subnet mask, broadcast and vendor for each interface🔍 Host DiscoveryPing sweep + ARP on the local network, OS fingerprinting via TTL🔓 Port ScannerCommon ports or custom ranges with banner grabbing📶 WiFi ScannerSSID, BSSID, signal (dBm + %), security, channel, AP vendor📡 Bluetooth ScannerBLE via bleak, classic Bluetooth via pybluez, PowerShell fallback🕵️ Live CaptureReal-time display of TCP / UDP / ICMP / ARP packets via Scapy📊 Full ScanAutomatically chains all 5 modules above with a final summary
 
