@@ -1,0 +1,16 @@
+# ═══════════════════════════════════════════════
+#  NetRadar — Requirements
+# ═══════════════════════════════════════════════
+
+# ── REQUIS ──────────────────────────────────────
+rich>=13.0.0          # Interface CLI colorée (obligatoire)
+
+# ── OPTIONNELS (améliorent les fonctionnalités) ─
+scapy>=2.5.0          # Scan ARP avancé + capture de paquets
+# Sur Windows, installez aussi Npcap: https://npcap.com
+
+python-nmap>=0.7.1    # Détection OS avancée (nécessite nmap installé)
+netifaces>=0.11.0     # Interfaces réseau détaillées
+pywifi>=1.1.12        # Scan WiFi natif (Windows/Linux)
+bleak>=0.21.0         # Scan Bluetooth Low Energy (BLE)
+# pybluez>=0.23       # Bluetooth classique (peut nécessiter Visual C++)
