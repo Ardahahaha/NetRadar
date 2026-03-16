@@ -1,4 +1,4 @@
- 🚀 Features
+![Statut TOTP](./NetRadar.png) 🚀 Features
 ModuleDescription🖥️ Network InterfacesDisplay IP, MAC, subnet mask, broadcast and vendor for each interface🔍 Host DiscoveryPing sweep + ARP on the local network, OS fingerprinting via TTL🔓 Port ScannerCommon ports or custom ranges with banner grabbing📶 WiFi ScannerSSID, BSSID, signal (dBm + %), security, channel, AP vendor📡 Bluetooth ScannerBLE via bleak, classic Bluetooth via pybluez, PowerShell fallback🕵️ Live CaptureReal-time display of TCP / UDP / ICMP / ARP packets via Scapy📊 Full ScanAutomatically chains all 5 modules above with a final summary
 
 📦 Requirements
